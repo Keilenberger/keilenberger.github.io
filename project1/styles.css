@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald');
+
+
+body{
+    font-family: 'Abril Fatface', cursive;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11rem;
+    letter-spacing: -2px;
+    text-align: center;
+}
+h2{
+    font-size: 6rem; 
+    text-align: center;
+    letter-spacing: -2px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+h4{ font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: .75rem;
+    color: rebeccapurple;
+}
+
+.city {
+    font-family:'Oswald', sans-serif;
+    font-size: 20px;   
+    color: mediumpurple
+}
+.date{
+    font-size: 22px;
+}
+.venue{
+    font-size: 20px;
+}
