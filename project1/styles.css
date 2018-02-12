@@ -55,13 +55,12 @@ header img {
    float: right; 
 }
 
-div.mainimage {
-    
-}
 
 div.bands {
     max-width: 900px;
     margin: auto;
+    clear:both;
+    overflow:hidden;
 }
 
 div.band {
@@ -77,5 +76,17 @@ div.band img {
 div.tourdates{
     clear: both;
     width: 900px;
+    margin: auto;
+}
+
+div.tourleft{
+    float:left;
+    width:50%;
+    margin: auto;
+}
+
+div.tourright{
+    float: left;
+    width: 50%;
     margin: auto;
 }
