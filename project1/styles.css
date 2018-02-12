@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Abril Fatface', cursive;
-    background-color: lightgrey;
+    background-color: #DDDFDE;
 }
 
 h1 {
@@ -38,4 +38,44 @@ h4{ font-family: 'Oswald', sans-serif;
 }
 .venue{
     font-size: 20px;
+}
+
+header{
+    max-width: 1000px;
+    overflow: hidden; 
+    margin: auto;
+    
+}
+
+header div{
+    float:left;
+}
+
+header img {
+   float: right; 
+}
+
+div.mainimage {
+    
+}
+
+div.bands {
+    max-width: 900px;
+    margin: auto;
+}
+
+div.band {
+    width: 33.3%;
+    overflow: hidden;
+    float: left;
+}
+
+div.band img {
+    width: 100%;
+}
+
+div.tourdates{
+    clear: both;
+    width: 900px;
+    margin: auto;
 }
